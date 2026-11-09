@@ -131,7 +131,7 @@ class HomeScreen extends StatelessWidget {
             padding: const EdgeInsets.fromLTRB(16, 8, 16, 24),
             children: [
               Text('Welcome back,', style: theme.textTheme.bodyMedium),
-              Text('Aarav Sharma', style: theme.textTheme.headlineSmall?.copyWith(fontWeight: FontWeight.bold)),
+              Text('Shivani', style: theme.textTheme.headlineSmall?.copyWith(fontWeight: FontWeight.bold)),
               const SizedBox(height: 16),
 
               // ---- balance card ----
@@ -172,7 +172,7 @@ class HomeScreen extends StatelessWidget {
                     const SizedBox(height: 10),
                     const Row(
                       children: [
-                        Expanded(child: Text('AARAV SHARMA', style: TextStyle(color: Colors.white70, fontSize: 12))),
+                        Expanded(child: Text('SHIVANI', style: TextStyle(color: Colors.white70, fontSize: 12))),
                         Text('VALID THRU 08/29', style: TextStyle(color: Colors.white70, fontSize: 12)),
                       ],
                     ),
